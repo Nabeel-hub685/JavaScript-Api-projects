@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #354457;
+}
+
+.container{
+    width: 450px;
+    padding: 25px 35px;
+    position: absolute; /* from line 15 to line 18 , it is to put the dive in centre of the screen !*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dfdfe3;
+    border-radius: 12px;
+}
+
+p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.container input{
+ margin-top: 10px;   
+ width: 100%;
+ height: 50px;
+ border: 1.25px solid gray;
+ border-radius: 6px;
+ outline: none;
+ margin-bottom: 8px;
+ padding: 8px;
+ font-size: 15px;
+ color: rgba(11, 5, 3, 0.781)
+
+
+}
+
+button{
+ margin-top: 5px;
+ width:100%;
+ height: 50px;
+ line-height: 50px;
+ background-color: rgb(36, 145, 109);
+ color: #fff;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 14px;
+ font-weight: 600;
+}
+
+.qrcode img{
+    margin-top: 15px;
+    margin-bottom: 12px;
+   
+
+}
+
+.qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

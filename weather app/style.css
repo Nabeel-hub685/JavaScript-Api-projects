@@ -7,10 +7,13 @@
 
 body{
     background-color: #01011d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
-    width: 470px;
+    width: 400px;
     background: linear-gradient(135deg, #00feba, #fb548a);
     color: #fff;
     margin: 100px auto 0;
@@ -103,4 +106,94 @@ body{
     margin-top: -6px;
     font-weight: 450;
 }
+
+@media (min-width: 380px) and (max-width: 400px){
+    .card{
+        width: 380px;
+    }
+    .search input{
+        width: 240px;
+       }
+    
+    
+}
+
+@media  (min-width: 360px) and (max-width: 380px){
+    .card{
+        width: 350px;
+        padding: 35px 25px;
+    }
+    .search input{
+        width: 210px;
+        margin-right: 10px; /* thora sa input size km krke beech me margin derha search icon se pehle*/
+    font-size: 16px;
+       }
+       .weather h1{
+        font-size: 52px;
+        font-weight: 520;
+        margin-top: -12px;
+    }
+    
+    .weather h2{
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: -12px;
+        
+    }
+
+    humidity, .wind{
+        font-size: 17px;
+        margin-top: -6px;
+        font-weight: 450;
+    }
+    p{
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media   (max-width: 360px){
+    .card{
+        width: 330px;
+        padding: 30px 20px;
+    }
+    .search input{
+        width: 150px;
+        margin-right: 8px; /* thora sa input size km krke beech me margin derha search icon se pehle*/
+    font-size: 15px;
+       }
+       .weather h1{
+        font-size: 45px;
+        font-weight: 520;
+        margin-top: -12px;
+    }
+    
+    .weather h2{
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: -12px;
+        
+    }
+
+    .humidity, .wind{
+        font-size: 15px;
+        margin-top: -6px;
+        font-weight: 450;
+    }
+    p{
+        font-size: 11px;
+    }
+
+    .weather-icon{
+        width: 150px;
+        margin-top: 25px;
+    }
+    .col img {
+        width:30px;
+        margin-right: 10px;
+    }
+    
+}
+
 
